@@ -1,0 +1,219 @@
+<html>
+
+<head>
+    <title>Clínica Veterinária</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css/style.css">
+    <style>
+        html {
+            height: 100%;
+
+        }
+
+        /** COMENTÁRIO **/
+        #cabecalho {
+            width: 100%;
+            height: 12.7%;
+            background-color: rgba(245, 238, 220, 1);
+        }
+
+        #conteudo_principal {
+            background: rgb(255, 255, 255);
+            width: 100%;
+            height: 100%;
+
+        }
+
+        #titulo {
+            color: darkblue;
+            font-size: xx-large;
+            text-align: left;
+            width: 500px;
+            margin-left: 25%;
+            padding-top: 10px;
+
+        }
+
+
+
+        #rodape {
+            text-align: center;
+        }
+
+        .imagem {
+            padding-left: 15%;
+            padding-top: 10px;
+        }
+
+        .produtoPeixes {
+            background-color: rgb(255, 255, 255);
+            width: fit-content;
+            box-shadow: 0px 0px 2px 0px #bababa;
+            border-radius: 5px;
+            padding: 10px 10px 10px;
+            display: flex;
+            flex-direction: column;
+            max-width: 220px;
+            margin: 10px 10px 10px;
+
+        }
+
+        #conteudoPeixes {
+            display: flex;
+            padding: 20px;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            background-color: rgba(245, 238, 220, 1);
+        }
+
+        #listaProduto {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+
+<body id="corpo">
+    <header id="cabeçalho">   
+        <div>
+            <a href="index.html">
+            <img class="logo" src="img/logo.png" alt="">
+            </a>
+        </div>
+        <div id="divBusca">
+            <input type="text" id="txtBusca" placeholder="Pesquise na Petsmac..."/>
+            <button id="button">Buscar</button>
+        </div>
+        <!--A PARTE DO LOGIN QUE TU PEDIU PRA COMENTAR TA AQUI-->
+        <!--A PARTE DO LOGIN QUE TU PEDIU PRA COMENTAR TA AQUI-->
+
+        <div id="divLogin">
+            <div class="navLogin" style="display: flex; align-items: center; justify-content: center; margin: 5px;">
+                <a style="width: 85px;" href="login.html">Login</a>
+                <a style="width: 85px;" href="cadastro.html">Cadastro</a>
+                <a style="width: 85px;" href="index.html"><img src="img/carrinho.png" alt=""></a>
+
+            </div>
+        </div>
+        
+        <!--A PARTE DO LOGIN QUE TU PEDIU PRA COMENTAR TA AQUI-->
+        <!--A PARTE DO LOGIN QUE TU PEDIU PRA COMENTAR TA AQUI-->
+    </header>
+
+    <div class="nav-items">
+               <button onclick="window.location.href = 'gatos.html'" id="button" 
+                        id="btnGatos">  Gatos   </button>
+               <button onclick="window.location.href = 'cachorros.html'" id="button" 
+                        id="btnCachorros">  Cachorros   </button>
+                <button onclick="window.location.href = 'peixes.html'" id="button"
+                        id="btnPeixes">  Peixes   </button>
+    </div>
+
+    
+
+
+    <!-- CONTEUDO -->
+    <div id="conteudoPeixes">
+        <h1>PEIXES</h1>
+        <P>Oferecer aos peixes um ecossistema semelhante ao encontrado em seu habitat é sem dúvida uma necessidade para
+            a qualidade de vida desses seres. Para os aquaristas iniciantes, porém, pode ser uma tarefa difícil saber
+            todos os objetos e acessórios necessários para o aquário.
+
+            Desse modo, aprender como cuidar e oferecer todo o suporte aos peixes é fundamental, dado que, assim, você
+            garante a longevidade do pet. Então, obtenha aquários, luminária LED, filtro, termômetro, termostato, bomba
+            submersa e outros objetos de qualidade para seu amigo de estimação.
+        </P>
+
+        <div id="listaProduto">
+
+            <div class="produtoPeixes">
+                <img src="https://static.petz.com.br/fotos/1562865255114_mini.jpg" class="product-img img-responsive"
+                    itemprop="image" alt="Bactericida Atlantys Mundo Animal para Peixes 15ml"
+                    title="Bactericida Atlantys Mundo Animal para Peixes 15ml">
+                <h4>Bactericida Atlantys Mundo Animal para Peixes 15ml</h4>
+                <strong>R$ 34,99</strong>
+            </div>
+            <div class="produtoPeixes">
+                <img src="https://static.petz.com.br/fotos/1562865649327_mini.jpg" class="product-img img-responsive"
+                    itemprop="image" alt="Parasiticida Atlantys Mundo Animal para Peixes 15ml"
+                    title="Parasiticida Atlantys Mundo Animal para Peixes 15ml">
+                <h4>Ração Úmida Royal Canin Sachê para Gatos Adultos Castrados - 85g</h4>
+                <strong>R$ 32,99</strong>
+            </div>
+            <div class="produtoPeixes">
+                <img src="https://static.petz.com.br/fotos/1652971424268_mini.jpg" class="product-img img-responsive"
+                    itemprop="image" alt="Aquário Boyu Curvo 120 246 Litros Preto Champagne"
+                    title="Aquário Boyu Curvo 120 246 Litros Preto Champagne">
+                <h4>Aquário Boyu Curvo 120 246 Litros Preto Champagne</h4>
+                <strong>R$ 4.299,99</strong>
+            </div>
+            <div class="produtoPeixes">
+                <img src="https://static.petz.com.br/fotos/1599079827819_mini.jpg" class="product-img img-responsive"
+                    itemprop="image" alt="Aquário Boyu Curvo 150 472 Litros Preto Champagne"
+                    title="Aquário Boyu Curvo 150 472 Litros Preto Champagne">
+                <h4>Aquário Boyu Curvo 150 472 Litros Preto Champagne</h4>
+                <strong>R$ 7.999,99</strong>
+            </div>
+            <div class="produtoPeixes">
+                <img src="https://static.petz.com.br/fotos/1652967145473_mini.jpg" class="product-img img-responsive"
+                    itemprop="image" alt="Aquário Boyu Curvo 120E 200 Litros Preto 220V"
+                    title="Aquário Boyu Curvo 120E 200 Litros Preto 220V">
+                <h4>Aquário Boyu Curvo 120E 200 Litros Preto 220V</h4>
+                <strong>R$ 3.299,99</strong>
+            </div>
+            <div class="produtoPeixes">
+                <img src="https://static.petz.com.br/fotos/1613490465322_mini.jpg" class="product-img img-responsive"
+                    itemprop="image" alt="Recovery Royal Canin Veterinary Ração Lata Cães e Gatos 195 g"
+                    title="Recovery Royal Canin Veterinary Ração Lata Cães e Gatos 195 g">
+                <h4>Recovery Royal Canin Veterinary Ração Lata Cães e Gatos 195 g</h4>
+                <strong>R$ 30,99</strong>
+            </div>
+            <div class="produtoPeixes">
+                <img src="https://static.petz.com.br/fotos/1513338765070_mini.jpg" class="product-img img-responsive"
+                    itemprop="image" alt="Aquário Boyu Curvo Preto EC-600 66L"
+                    title="Aquário Boyu Curvo Preto EC-600 66L">
+                <h4>Aquário Boyu Curvo Preto EC-600 66L</h4>
+                <strong>R$ 1.199,99</strong>
+            </div>
+            <div class="produtoPeixes">
+                <img src="https://static.petz.com.br/fotos/1593553335792_mini.jpg" class="product-img img-responsive"
+                    itemprop="image" alt="Aquário Curvo Boyu Led MS-520 45L" title="Aquário Curvo Boyu Led MS-520 45L">
+                <h4>Aquário Curvo Boyu Led MS-520 45L</h4>
+                <strong>R$ 989.99</strong>
+            </div>
+            <div class="produtoPeixes">
+                <img src="https://static.petz.com.br/fotos/1594826228630_mini.jpg" class="product-img img-responsive"
+                    itemprop="image" alt="Filtro Externo para Lagos Boyu EFU UV 24W"
+                    title="Filtro Externo para Lagos Boyu EFU UV 24W">
+                <h4>Filtro Externo para Lagos Boyu EFU UV 24W</h4>
+                <strong>R$ 3.099,49</strong>
+            </div>
+            <div class="produtoPeixes">
+                <img loading="lazy" class="product-img img-responsive" itemprop="image"
+                    alt="Ração Nutribetta Nutricon para Peixes 12g" title="Ração Nutribetta Nutricon para Peixes 12g"
+                    src="https://static.petz.com.br/fotos/1635968782073_mini.jpg">
+                <h4>Ração Nutribetta Nutricon para Peixes 12g</h4>
+                <strong>R$ 7,69</strong>
+            </div>
+        </div>
+    </div>
+    </div>
+    <footer>
+        <div>
+            <img class="dog" src="img/dogfooter.png" alt="">
+            <div class="contato">
+                <p>Site para fins acadêmicos!!</p>
+                <p>desenvolvido para pagar matéria no curso de sistemas da informação CESMAC-AL 2022.1</p>
+                <p>Contato:(82)76768899</p>
+                <p> Localização: Rua que não existe, 917, Farol CEP: 57051-666, Maceió, Alagoas</p>
+                <p>CEP:50956989</p>
+                <p>Instagram: @Petsmac</p>
+            </div>
+        </div>
+        </footer>
+</body>
+
+</html>

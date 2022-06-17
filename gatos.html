@@ -1,0 +1,218 @@
+<html>
+
+<head>
+    <title>Clínica Veterinária</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css/style.css">
+    <style>
+        html {
+            height: 100%;
+
+        }
+
+        /** COMENTÁRIO **/
+        #cabecalho {
+            width: 100%;
+            height: 12.7%;
+            background-color: rgba(245, 238, 220, 1);
+        }
+
+        #conteudo_principal {
+            background: rgb(255, 255, 255);
+            width: 100%;
+            height: 100%;
+
+        }
+
+        #titulo {
+            color: darkblue;
+            font-size: xx-large;
+            text-align: left;
+            width: 500px;
+            margin-left: 25%;
+            padding-top: 10px;
+
+        }
+
+        #rodape {
+            text-align: center;
+        }
+
+        .imagem {
+            padding-left: 15%;
+            padding-top: 10px;
+        }
+
+        .produtoGato {
+            background-color: rgb(255, 255, 255);
+            width: fit-content;
+            box-shadow: 0px 0px 2px 0px #bababa;
+            border-radius: 5px;
+            padding: 10px 10px 10px;
+            display: flex;
+            flex-direction: column;
+            max-width: 220px;
+            margin: 10px 10px 10px;
+
+        }
+
+        #conteudoGato {
+            display: flex;
+            background-color: white;
+            padding: 20px;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            background-color: rgba(245, 238, 220, 1);
+        }
+
+        #listaProduto {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+
+<body id="corpo">
+    <!-- CABEÇALHO -->
+    <header id="cabeçalho">   
+        <div>
+            <a href="index.html">
+            <img class="logo" src="img/logo.png" alt="">
+            </a>
+        </div>
+        <div id="divBusca">
+            <input type="text" id="txtBusca" placeholder="Pesquise na Petsmac..."/>
+            <button id="button">Buscar</button>
+        </div>
+        <!--A PARTE DO LOGIN QUE TU PEDIU PRA COMENTAR TA AQUI-->
+        <!--A PARTE DO LOGIN QUE TU PEDIU PRA COMENTAR TA AQUI-->
+
+        <div id="divLogin">
+            <div class="navLogin" style="display: flex; align-items: center; justify-content: center; margin: 5px;">
+                <a style="width: 85px;" href="login.html">Login</a>
+                <a style="width: 85px;" href="cadastro.html">Cadastro</a>
+                <a style="width: 85px;" href="index.html"><img src="img/carrinho.png" alt=""></a>
+
+            </div>
+        </div>
+        
+        <!--A PARTE DO LOGIN QUE TU PEDIU PRA COMENTAR TA AQUI-->
+        <!--A PARTE DO LOGIN QUE TU PEDIU PRA COMENTAR TA AQUI-->
+    </header>
+
+    <div class="nav-items">
+               <button onclick="window.location.href = 'gatos.html'" id="button" 
+                        id="btnGatos">  Gatos   </button>
+               <button onclick="window.location.href = 'cachorros.html'" id="button" 
+                        id="btnCachorros">  Cachorros   </button>
+                <button onclick="window.location.href = 'peixes.html'" id="button"
+                        id="btnPeixes">  Peixes   </button>
+    </div>
+
+
+    <!-- CONTEUDO -->
+    <div id="conteudoGato">
+        <h1>GATOS</h1>
+        <P>Adotou um ou já tem um felino em casa? Então, você veio ao lugar certo, pois aqui na Petz tem tudo o que seu
+            gato precisa. Com uma variedade incrível de itens, com certeza, seu peludinho ficará muito confortável e
+            feliz no lar.
+
+            São rações, brinquedos para gato, itens de higiene e beleza, acessórios para o dia a dia e muito mais. Seu
+            gatinho vai adorar todos os itens dele, tendo muito bem-estar e felicidade. Vamos conhecer alguns produtos
+            disponíveis em nosso catálogo para os bichanos.
+        </P>
+
+        <div id="listaProduto">
+
+            <div class="produtoGato">
+                <img src="https://static.petz.com.br/fotos/1646142863648_mini.jpg" class="product-img img-responsive"
+                    itemprop="image" alt="Ração Premier para Gatos Castrados de 6 meses a 6 anos Sabor Frango"
+                    title="Ração Premier para Gatos Castrados de 6 meses a 6 anos Sabor Frango">
+                <h4>Ração Premier para Gatos Castrados de 6 meses a 6 anos Sabor Frango</h4>
+                <strong>R$ 29,99</strong>
+            </div>
+            <div class="produtoGato">
+                <img src="https://static.petz.com.br/fotos/1619467065187_mini.jpg" class="product-img img-responsive"
+                    itemprop="image" alt="Ração Úmida Royal Canin Sachê para Gatos Adultos Castrados - 85g"
+                    title="Ração Úmida Royal Canin Sachê para Gatos Adultos Castrados - 85g">
+                <h4>Ração Úmida Royal Canin Sachê para Gatos Adultos Castrados - 85g</h4>
+                <strong>R$ 9,99</strong>
+            </div>
+            <div class="produtoGato">
+                <img src="https://static.petz.com.br/fotos/1646146745324_mini.jpg" class="product-img img-responsive"
+                    itemprop="image" alt="Ração Premier para Gatos Castrados de 7 a 11 anos Sabor Frango"
+                    title="Ração Premier para Gatos Castrados de 7 a 11 anos Sabor Frango">
+                <h4>Ração Premier para Gatos Castrados de 7 a 11 anos Sabor Frango</h4>
+                <strong>R$ 23,99</strong>
+            </div>
+            <div class="produtoGato">
+                <img src="https://static.petz.com.br/fotos/1646145184942_mini.jpg" class="product-img img-responsive"
+                    itemprop="image" alt="Ração Premier para Gatos Castrados de 6 meses a 6 anos Sabor Salmão"
+                    title="Ração Premier para Gatos Castrados de 6 meses a 6 anos Sabor Salmão">
+                <h4>Ração Premier para Gatos Castrados de 6 meses a 6 anos Sabor Salmão</h4>
+                <strong>R$ 28,99</strong>
+            </div>
+            <div class="produtoGato">
+                <img src="https://static.petz.com.br/fotos/1611263708519_mini.jpg" class="product-img img-responsive"
+                    itemprop="image" alt="Ração Royal Canin Veterinary Hypoallergenic para Gatos Adultos"
+                    title="Ração Royal Canin Veterinary Hypoallergenic para Gatos Adultos">
+                <h4>Ração Royal Canin Veterinary Hypoallergenic para Gatos Adultos</h4>
+                <strong>R$ 149,66</strong>
+            </div>
+            <div class="produtoGato">
+                <img src="https://static.petz.com.br/fotos/1613490465322_mini.jpg" class="product-img img-responsive"
+                    itemprop="image" alt="Recovery Royal Canin Veterinary Ração Lata Cães e Gatos 195 g"
+                    title="Recovery Royal Canin Veterinary Ração Lata Cães e Gatos 195 g">
+                <h4>Recovery Royal Canin Veterinary Ração Lata Cães e Gatos 195 g</h4>
+                <strong>R$ 30,99</strong>
+            </div>
+            <div class="produtoGato">
+                <img src="https://static.petz.com.br/fotos/1550837412917_mini.jpg" class="product-img img-responsive"
+                    itemprop="image" alt="Ração Úmida Royal Canin Sachê Instinctive - Gatos Adultos - 85g"
+                    title="Ração Úmida Royal Canin Sachê Instinctive - Gatos Adultos - 85g">
+                <h4>Ração Úmida Royal Canin Sachê Instinctive - Gatos Adultos - 85g</h4>
+                <strong>R$ 14,99</strong>
+            </div>
+            <div class="produtoGato">
+                <img src="https://static.petz.com.br/fotos/1612961635634_mini.jpg" class="product-img img-responsive"
+                    itemprop="image" alt="Ração Royal Canin Feline Veterinary Diet Satiety para Gatos Obesos"
+                    title="Ração Royal Canin Feline Veterinary Diet Satiety para Gatos Obesos">
+                <h4>Ração Royal Canin Feline Veterinary Diet Satiety para Gatos Obesos</h4>
+                <strong>R$ 136,49</strong>
+            </div>
+            <div class="produtoGato">
+                <img src="https://static.petz.com.br/fotos/1611340751811_mini.jpg" class="product-img img-responsive"
+                    itemprop="image" alt="Ração Royal Canin Veterinary Gastro Intestinal para Gatos Adultos"
+                    title="Ração Royal Canin Veterinary Gastro Intestinal para Gatos Adultos">
+                <h4>Ração Royal Canin Veterinary Gastro Intestinal para Gatos Adultos</h4>
+                <strong>R$ 130,49</strong>
+            </div>
+            <div class="produtoGato">
+                <img src="https://static.petz.com.br/fotos/1574866875091_mini.jpg" class="product-img img-responsive"
+                    itemprop="image" alt="Ração Maine Coon Royal Canin para Gatos"
+                    title="Ração Maine Coon Royal Canin para Gatos">
+                <h4>Ração Maine Coon Royal Canin para Gatos</h4>
+                <strong>R$ 304,04</strong>
+            </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div>
+            <img class="dog" src="img/dogfooter.png" alt="">
+            <div class="contato">
+                <p>Site para fins acadêmicos!!</p>
+                <p>desenvolvido para pagar matéria no curso de sistemas da informação CESMAC-AL 2022.1</p>
+                <p>Contato:(82)76768899</p>
+                <p> Localização: Rua que não existe, 917, Farol CEP: 57051-666, Maceió, Alagoas</p>
+                <p>CEP:50956989</p>
+                <p>Instagram: @Petsmac</p>
+            </div>
+        </div>
+        </footer>
+</body>
+
+</html>
