@@ -1,0 +1,164 @@
+<html>
+
+<head>
+    <title>Clínica Veterinária</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css/style.css">
+    <style>
+        html {
+            height: 100%;
+
+        }
+
+        /** COMENTÁRIO **/
+        #cabecalho {
+            width: 100%;
+            height: 12.7%;
+            background-color: rgba(245, 238, 220, 1);
+        }
+
+        #conteudo_principal {
+            background: rgb(255, 255, 255);
+            width: 100%;
+            height: 100%;
+
+        }
+
+        #titulo {
+            color: darkblue;
+            font-size: xx-large;
+            text-align: left;
+            width: 500px;
+            margin-left: 25%;
+            padding-top: 10px;
+
+        }
+
+        #rodape {
+            text-align: center;
+        }
+
+        .imagem {
+            padding-left: 15%;
+            padding-top: 10px;
+        }
+
+        .produtoCachorro {
+            background-color: rgb(255, 255, 255);
+            width: fit-content;
+            box-shadow: 0px 0px 2px 0px #bababa;
+            border-radius: 5px;
+            padding: 10px 10px 10px;
+            display: flex;
+            flex-direction: column;
+            max-width: 220px;
+            margin: 10px 10px 10px;
+
+        }
+
+        #conteudo {
+            display: flex;
+            padding: 20px;
+            align-items: left;
+            height: 1200px;
+            justify-content: flex-start;
+            flex-direction: column;
+        }
+
+
+        #listaProduto {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+        }
+        .tituloCarrinho{
+            height: 500px;
+        }
+    </style>
+</head>
+
+<body id="corpo">
+    <!-- CABEÇALHO -->
+    <header id="cabeçalho">   
+        <div>
+            <a href="index.html">
+            <img class="logo" src="img/logo.png" alt="">
+            </a>
+        </div>
+        <div id="divBusca">
+            <input type="text" id="txtBusca" placeholder="Pesquise na Petsmac..."/>
+            <button id="button">Buscar</button>
+        </div>
+        <!--A PARTE DO LOGIN QUE TU PEDIU PRA COMENTAR TA AQUI-->
+        <!--A PARTE DO LOGIN QUE TU PEDIU PRA COMENTAR TA AQUI-->
+
+        <div id="divLogin">
+            <div class="navLogin" style="display: flex; align-items: center; justify-content: center; margin: 5px;">
+                <a style="width: 85px;" href="login.html">Login</a>
+                <a style="width: 85px;" href="cadastro.html">Cadastro</a>
+                <a style="width: 85px;" href="index.html"><img src="img/carrinho.png" alt=""></a>
+
+            </div>
+        </div>
+        
+        <!--A PARTE DO LOGIN QUE TU PEDIU PRA COMENTAR TA AQUI-->
+        <!--A PARTE DO LOGIN QUE TU PEDIU PRA COMENTAR TA AQUI-->
+    </header>
+
+    <div class="nav-items">
+               <button onclick="window.location.href = 'gatos.html'" id="button" 
+                        id="btnGatos">  Gatos   </button>
+               <button onclick="window.location.href = 'cachorros.html'" id="button" 
+                        id="btnCachorros">  Cachorros   </button>
+                <button onclick="window.location.href = 'peixes.html'" id="button"
+                        id="btnPeixes">  Peixes   </button>
+    </div>
+
+
+    <!-- CONTEUDO -->
+    <div id="conteudo">
+        <h1>Carrinho de compras</h1>
+        <div id="divTitle">
+            <H3>Produto</H3>
+            <h3 style="margin-left: 50%;">Preço</h3>
+        </div>
+        <div style="display: flex; flex-direction:row;">
+        <div id="divCarrinho">
+            <img src="img/produto.png">
+                    </a>
+            <h5>Ração Royal Canin Maxi - Cães Adultos - 15kg</h5>
+            <h5 style="margin-left: 26%;">R$344,89</h5>
+            <a style="margin-left: 21%;" href="carrinho.html">Excluir</a>
+        </div>
+               
+        </div>
+        <div id="divCarrinho">
+            <img src="img/produto2.png">
+                    </a>
+            <h5>Ração Royal Canin Golden Retriever - Cães Adultos - 12kg</h5>
+            <h5 style="margin-left: 21%;">R$353,89</h5>
+            <a style="margin-left: 21%;" href="carrinho.html">Excluir</a>
+        </div>
+        <div id="divTotal">
+            <h3>Total:R$688,78</h3>
+            <button style="margin-top: 20px; width: 180px;">Finalizar Compra</button>
+            <button onclick="window.location.href = 'index.html'" style="margin-top: 20px; width: 180px;">Continuar Comprando</button>           
+        </div>        
+    </div>
+    <footer>
+        <div>
+            <img class="dog" src="img/dogfooter.png" alt="">
+            <div class="contato">
+                <p>Site para fins acadêmicos!!</p>
+                <p>desenvolvido para pagar matéria no curso de sistemas da informação CESMAC-AL 2022.1</p>
+                <p>Contato:(82)76768899</p>
+                <p> Localização: Rua que não existe, 917, Farol CEP: 57051-666, Maceió, Alagoas</p>
+                <p>CEP:50956989</p>
+                <p>Instagram: @Petsmac</p>
+            </div>
+        </div>
+        </footer>
+</body>
+
+</html>
